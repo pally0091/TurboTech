@@ -4,3 +4,22 @@ body {
   color: black;
   text-align: center;
 }
+banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(/imgs/01/a.jpg);
+  background-repeat: no-repeat;
+}
+banner div {
+  width: 30%;
+}
+#name {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 5em;
+  font-weight: bold;
+  font-style: italic;
+  -webkit-text-stroke: greenyellow 2px;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.7);
+}
