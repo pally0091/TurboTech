@@ -62,3 +62,14 @@ card {
   box-shadow: 2px 2px 5px #241c1c;
   border-radius: 0.5em;
 }
+.truk-details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+  padding: 1em;
+  /* justify-items: center; */
+  align-items: center;
+}
+.truk-details p {
+  text-align: left;
+}
