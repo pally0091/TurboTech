@@ -44,6 +44,10 @@ banner div {
   font-size: 2em;
   font-weight: bold;
 }
+#service {
+  font-size: 2em;
+  font-weight: bold;
+}
 card {
   border: 1px solid black;
   box-shadow: 2px 2px 5px #241c1c;
