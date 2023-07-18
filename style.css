@@ -15,7 +15,11 @@ banner {
 banner div {
   width: 30%;
 }
-
+@media screen and (max-width: 320px) {
+  banner div {
+    visibility: hidden;
+  }
+}
 #name {
   color: #ffffffb3;
   font-size: 5em;
@@ -24,15 +28,32 @@ banner div {
   -webkit-text-stroke: greenyellow 2px;
   -webkit-text-fill-color: #ffffffb3;
 }
+@media screen and (max-width: 320px) {
+  #name {
+    font-size: 3em;
+    text-align: center;
+  }
+}
 #about-section {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
+@media screen and (max-width: 320px) {
+  #about-section {
+    flex-direction: column;
+  }
+}
 #about-section div {
   width: 50%;
   padding: 2em;
+}
+@media screen and (max-width: 320px) {
+  #about-section div {
+    width: 90%;
+    padding: 1em;
+  }
 }
 #about-section div p {
   text-align: justify;
@@ -63,6 +84,11 @@ card {
   width: 95%;
   margin: 2em auto;
   padding: 2em 0;
+}
+@media screen and (max-width: 320px) {
+  #collections-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 .collections-img {
   box-shadow: 2px 2px 5px #241c1c;
