@@ -105,3 +105,52 @@ card {
 .truk-details p {
   text-align: left;
 }
+/* Default styles for the service section */
+#services {
+  text-align: center;
+}
+
+#services h2 {
+  font-size: 2em;
+  font-weight: bold;
+}
+#service-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 75%;
+  margin: 2em auto;
+  padding: 2em 0;
+  gap: 5em;
+}
+@media screen and (max-width: 320px) {
+  #service-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2em;
+    padding: 1em;
+    width: 85%;
+  }
+}
+.service {
+  margin-bottom: 40px;
+  background-image: linear-gradient(to top, black, gray);
+  color: white;
+}
+
+.service h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: white;
+  font-weight: 700;
+}
+
+.service p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.service {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
