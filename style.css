@@ -15,6 +15,7 @@ banner {
 banner div {
   width: 30%;
 }
+
 #name {
   color: #ffffffb3;
   font-size: 5em;
@@ -53,6 +54,7 @@ card {
   box-shadow: 2px 2px 5px #241c1c;
   border-radius: 0.5em;
   padding: 0.7em;
+  background-image: radial-gradient(#f8c2c2, #c7fdc7, #b8e6f8);
 }
 #collections-container {
   display: grid;
