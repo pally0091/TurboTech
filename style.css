@@ -15,7 +15,7 @@ banner {
 banner div {
   width: 30%;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   banner div {
     visibility: hidden;
   }
@@ -28,7 +28,7 @@ banner div {
   -webkit-text-stroke: greenyellow 2px;
   -webkit-text-fill-color: #ffffffb3;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   #name {
     font-size: 3em;
     text-align: center;
@@ -40,7 +40,7 @@ banner div {
   justify-content: space-between;
   align-items: center;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   #about-section {
     flex-direction: column;
   }
@@ -49,7 +49,7 @@ banner div {
   width: 50%;
   padding: 2em;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   #about-section div {
     width: 90%;
     padding: 1em;
@@ -85,7 +85,7 @@ card {
   margin: 2em auto;
   padding: 2em 0;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   #collections-container {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -122,7 +122,7 @@ card {
   padding: 2em 0;
   gap: 5em;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   #service-container {
     grid-template-columns: repeat(1, 1fr);
     gap: 2em;
