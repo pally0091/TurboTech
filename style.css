@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to bottom, #3b486b9a, #f8f79e);
+  background: linear-gradient(to bottom, #3c753f9a, #228896);
   height: 100%;
   color: black;
   text-align: center;
@@ -77,6 +77,20 @@ card {
   padding: 0.7em;
   background-image: radial-gradient(#f8c2c2, #c7fdc7, #b8e6f8);
 }
+.card-img {
+  overflow: hidden;
+  width: 80%;
+  margin: auto;
+}
+.collections-img {
+  box-shadow: 2px 2px 5px #241c1c;
+  border-radius: 0.5em;
+}
+.collections-img:hover {
+  scale: 1.1;
+  transition: all;
+  transition-duration: 0.5s;
+}
 #collections-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -90,10 +104,7 @@ card {
     grid-template-columns: repeat(1, 1fr);
   }
 }
-.collections-img {
-  box-shadow: 2px 2px 5px #241c1c;
-  border-radius: 0.5em;
-}
+
 .truk-details {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -153,4 +164,12 @@ card {
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+footer {
+  background-color: #f2f2f2;
+  color: #444;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
 }
