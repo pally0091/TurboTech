@@ -9,7 +9,7 @@ banner {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-image: url(/imgs/01/a.jpg);
+  background-image: url(./imgs/01/a.jpg);
   background-repeat: no-repeat;
 }
 banner div {
